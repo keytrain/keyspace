@@ -7,7 +7,7 @@
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
-    "deploy": "gatsby build --prefix-paths && rm -rf ./docs/* && mv ./public/* ./docs",
+    "deploy": "gatsby clean && gatsby build --prefix-paths && rm -rf ./docs/* && mv ./public/* ./docs",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
     "start": "npm run develop",
     "serve": "gatsby serve",
