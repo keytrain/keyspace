@@ -4,15 +4,32 @@ html {
 
 body {
   padding: 5rem 1.5rem 1.5rem;
+  font-family: Georgia, serif;
+  line-height: 1.85;
+  font-size: 20px;
 }
 
 .layout {
   margin: 0 auto;
-  max-width: 650px;
+  max-width: 600px;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    font-size: 16px;
+  }
 }
 
 footer {
   height: 5rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  margin-bottom: 5rem;
 }
 
 *::selection {
