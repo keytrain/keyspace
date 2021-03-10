@@ -8,16 +8,17 @@ export default function Post({ data }) {
   const post = data.markdownRemark
   return (
     <Layout>
-      <div>
-        <header>
-          <div className={postStyles.dateContainer}>
+      <header>
+        <div className={postStyles.postTitle}>{post.frontmatter.title}</div>
+        <div className={postStyles.dateContainer}>
+          {post.frontmatter.updated && (
             <span className={postStyles.updatedDate}>
               Updated {post.frontmatter.updated}
             </span>
-          </div>
-        </header>
-        <div dangerouslySetInnerHTML={{ __html: post.html }} />
-      </div>
+          )}
+        </div>
+      </header>
+      <div dangerouslySetInnerHTML={{ __html: post.html }} />
       <footer></footer>
     </Layout>
   )

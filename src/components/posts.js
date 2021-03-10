@@ -1,5 +1,6 @@
 import React from "react"
 import { Link } from "gatsby"
+
 import * as postsStyles from "./posts.module.css"
 
 export default function Posts({ node }) {

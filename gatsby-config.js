@@ -6,6 +6,11 @@
 
 module.exports = {
   /* Your site config here */
+  siteMetadata: {
+    title: `keyBlog`,
+    siteUrl: `https://keytrain.github.io/keyblog`,
+    description: `words`,
+  },
   pathPrefix: "/keyblog",
   plugins: [
     {
