@@ -9,7 +9,7 @@ export default function Post({ data }) {
   return (
     <Layout>
       <div>
-        <h4>{post.frontmatter.title}</h4>
+        <h3>{post.frontmatter.title}</h3>
         <div className={postStyles.dateContainer}>
           <span className={postStyles.date}>{post.frontmatter.date}</span>{" "}
           <span className={postStyles.updatedDate}>
@@ -18,6 +18,7 @@ export default function Post({ data }) {
         </div>
         <div dangerouslySetInnerHTML={{ __html: post.html }} />
       </div>
+      <footer></footer>
     </Layout>
   )
 }

@@ -1,6 +1,7 @@
 import React from "react"
-import { Link, graphql } from "gatsby"
+import { graphql } from "gatsby"
 import Layout from "../components/layout"
+import Posts from "../components/posts"
 
 export default function Home({ data }) {
   return (
@@ -9,14 +10,7 @@ export default function Home({ data }) {
         {/* <h4>{data.allMarkdownRemark.totalCount} Posts</h4> */}
         {data.allMarkdownRemark.edges.map(({ node }) => {
           if (node.frontmatter.access === "private") return null
-          return (
-            <div key={node.id}>
-              <Link to={node.fields.slug}>
-                {node.frontmatter.title}
-                <span style={{ float: "right" }}>{node.frontmatter.date}</span>
-              </Link>
-            </div>
-          )
+          return <Posts key={node.id} node={node} />
         })}
       </div>
     </Layout>
