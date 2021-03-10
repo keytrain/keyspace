@@ -50,7 +50,7 @@ header {
 p {
   margin: 0;
   padding: 0;
-  text-indent: 4rem;
+  text-indent: 3rem;
 }
 
 p:first-child {
@@ -61,7 +61,7 @@ img {
   width: 100%;
   margin-top: 3rem;
   margin-bottom: 2rem;
-  margin-left: -4rem;
+  margin-left: -3rem;
   border-radius: 8px;
   box-shadow: 3px 3px 20px 2px hsla(0, 0%, 50%);
 }
@@ -81,6 +81,10 @@ hr {
   border: 0;
   margin: 3rem auto;
   width: 60px;
+}
+
+li[id^="fn-"] {
+  font-size: 0.8em;
 }
 
 footer {
