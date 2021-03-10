@@ -26,7 +26,7 @@ h5 {
 }
 
 header {
-  margin-bottom: 6rem;
+  /* margin-bottom: 6rem; */
 }
 
 .postTitle {
@@ -35,14 +35,15 @@ header {
 }
 
 .dateContainer {
-  font-size: 0.8em;
-  margin-bottom: 1.5rem;
+  font-size: 0.7em;
+  margin-bottom: 0.3rem;
   color: hsla(0, 0%, 50%);
 }
 
 .date {
   margin-right: 20px;
 }
+
 p {
   margin: 0;
   padding: 0;
@@ -53,7 +54,10 @@ p:first-child {
   text-indent: 0;
 }
 
-.updatedDate {
+@media only screen and (max-width: 550px) {
+  p {
+    text-indent: 2rem;
+  }
 }
 
 hr {

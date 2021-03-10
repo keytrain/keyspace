@@ -10,7 +10,9 @@ export default function Posts({ node }) {
           <span className={postsStyles.postTitle}>
             {node.frontmatter.title}
           </span>
-          <div className={postsStyles.postDate}>{node.frontmatter.date}</div>
+          <div className={postsStyles.postDate}>
+            {node.frontmatter.date} - {node.timeToRead} minute read
+          </div>
         </div>
       </Link>
     </div>

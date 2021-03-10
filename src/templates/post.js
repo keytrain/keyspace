@@ -10,9 +10,7 @@ export default function Post({ data }) {
     <Layout>
       <div>
         <header>
-          <div className={postStyles.postTitle}>{post.frontmatter.title}</div>
           <div className={postStyles.dateContainer}>
-            <span className={postStyles.date}>{post.frontmatter.date}</span>{" "}
             <span className={postStyles.updatedDate}>
               Updated {post.frontmatter.updated}
             </span>
