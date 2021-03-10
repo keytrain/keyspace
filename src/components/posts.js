@@ -10,7 +10,7 @@ export default function Posts({ node }) {
           <span className={postsStyles.postTitle}>
             {node.frontmatter.title}
           </span>
-          <span className={postsStyles.postDate}>{node.frontmatter.date}</span>
+          <div className={postsStyles.postDate}>{node.frontmatter.date}</div>
         </div>
       </Link>
     </div>

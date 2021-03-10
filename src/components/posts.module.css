@@ -2,31 +2,19 @@ a {
   color: hsla(0, 0%, 25%);
   text-decoration: none;
 }
-a:visited {
-  color: hsla(0, 0%, 50%);
-}
 a:hover {
   color: hsla(0, 0%, 80%);
 }
 
 .postLink {
-  display: flex;
-  align-items: baseline;
-}
-
-.postTitle,
-.postDate {
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
+  margin-bottom: 1rem;
 }
 
 .postTitle {
-  flex: 1 1 auto;
-  padding-right: 10px;
+  padding-right: 1rem;
 }
 
 .postDate {
-  font-size: 0.8em;
-  flex: 0 0 auto;
+  font-size: 0.7em;
+  color: hsla(0, 0%, 50%);
 }

@@ -9,13 +9,15 @@ export default function Post({ data }) {
   return (
     <Layout>
       <div>
-        <h3>{post.frontmatter.title}</h3>
-        <div className={postStyles.dateContainer}>
-          <span className={postStyles.date}>{post.frontmatter.date}</span>{" "}
-          <span className={postStyles.updatedDate}>
-            Updated {post.frontmatter.updated}
-          </span>
-        </div>
+        <header>
+          <div className={postStyles.postTitle}>{post.frontmatter.title}</div>
+          <div className={postStyles.dateContainer}>
+            <span className={postStyles.date}>{post.frontmatter.date}</span>{" "}
+            <span className={postStyles.updatedDate}>
+              Updated {post.frontmatter.updated}
+            </span>
+          </div>
+        </header>
         <div dangerouslySetInnerHTML={{ __html: post.html }} />
       </div>
       <footer></footer>
@@ -29,8 +31,8 @@ export const query = graphql`
       html
       frontmatter {
         title
-        date(formatString: "MMMM D, YYYY")
-        updated(formatString: "MMMM D, YYYY")
+        date(formatString: "MMM Do, YYYY")
+        updated(formatString: "MMM Do, YYYY")
       }
     }
   }

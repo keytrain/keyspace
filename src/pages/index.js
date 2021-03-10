@@ -26,7 +26,7 @@ export const query = graphql`
           id
           frontmatter {
             title
-            date(formatString: "MMMM D, YYYY")
+            date(formatString: "MMM Do, YYYY")
             access
           }
           fields {
