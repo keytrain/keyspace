@@ -7,13 +7,13 @@ body {
   padding: 3rem 1.5rem 1.5rem;
   font-family: Garamond, Georgia, serif;
   color: hsl(0, 0%, 20%);
-  font-size: 22px;
+  font-size: 18px;
   line-height: 1.7;
 }
 
 .layout {
   margin: 0 auto;
-  max-width: 650px;
+  max-width: 550px;
 }
 
 @media only screen and (max-width: 550px) {
