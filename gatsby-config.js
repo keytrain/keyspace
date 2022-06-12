@@ -5,13 +5,12 @@
  */
 
 module.exports = {
-  /* Your site config here */
   siteMetadata: {
-    title: `keyBlog`,
-    siteUrl: `https://keytrain.github.io/keyblog`,
+    title: `keySpace`,
+    siteUrl: `https://keytrain.github.io/keyspace`,
     description: `words`,
   },
-  pathPrefix: "/keyblog",
+  pathPrefix: "/keyspace",
   plugins: [
     {
       resolve: `gatsby-source-filesystem`,
@@ -20,12 +19,6 @@ module.exports = {
         path: `${__dirname}/src/`,
       },
     },
-    // {
-    //   resolve: `gatsby-plugin-typography`,
-    //   options: {
-    //     pathToConfigModule: `src/utils/typography`,
-    //   },
-    // },
     {
       resolve: `gatsby-transformer-remark`,
       options: {

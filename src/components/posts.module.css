@@ -3,7 +3,7 @@ a {
   text-decoration: none;
 }
 a:hover {
-  color: hsla(0, 0%, 80%);
+  color: hsla(0, 0%, 50%);
 }
 
 .postLink {

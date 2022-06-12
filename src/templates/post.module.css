@@ -1,32 +1,12 @@
-a {
-  color: hsla(0, 0%, 25%);
-  text-decoration: none;
-  background: linear-gradient(
-    to right,
-    hsla(54, 100%, 62%, 0.4),
-    hsla(54, 100%, 62%, 0.9)
-  );
-  background-size: 300% 20%;
-  background-repeat: no-repeat;
-  background-position: 0% 100%;
-  transition-property: background-position;
-  transition-duration: 300ms;
-  padding: 0;
-}
-a:hover {
-  color: hsla(0, 0%, 25%);
-  /* color: hsla(0, 0%, 80%); */
-}
-
-h1,
-h2,
-h3,
-h4,
-h5 {
+.post h1,
+.post h2,
+.post h3,
+.post h4,
+.post h5 {
   margin-bottom: 5rem;
 }
 
-header {
+.post header {
   /* margin-bottom: 6rem; */
 }
 
@@ -54,35 +34,35 @@ header {
   margin-right: 20px;
 }
 
-p {
+.post p {
   margin: 0;
   padding: 0;
   text-indent: 2rem;
 }
 
-p:first-child {
+.post p:first-child {
   text-indent: 0;
 }
 
-img {
+.post img {
   width: 100%;
   margin-top: 3rem;
   margin-bottom: 2rem;
   margin-left: -3rem;
   border-radius: 8px;
-  box-shadow: 3px 3px 20px 2px hsla(0, 0%, 50%);
+  box-shadow: 0px 0px 20px 8px hsla(0, 0%, 90%);
 }
 
 @media only screen and (max-width: 550px) {
-  p {
+  .post p {
     text-indent: 2rem;
   }
-  img {
+  .post img {
     margin-left: -2rem;
   }
 }
 
-hr {
+.post hr {
   background: hsla(0, 0%, 80%);
   height: 1px;
   border: 0;
@@ -90,10 +70,11 @@ hr {
   width: 60px;
 }
 
-li[id^="fn-"] {
+.post li[id^="fn-"] {
   font-size: 0.8em;
 }
 
-footer {
+.post footer {
   height: 5rem;
+  text-align: left;
 }

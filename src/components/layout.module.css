@@ -11,9 +11,44 @@ body {
   line-height: 1.7;
 }
 
+a {
+  color: hsla(0, 0%, 25%);
+  text-decoration: none;
+  background: linear-gradient(
+    to right,
+    hsla(54, 100%, 62%, 0.4),
+    hsla(54, 100%, 62%, 0.9)
+  );
+  background-size: 300% 20%;
+  background-repeat: no-repeat;
+  background-position: 0% 100%;
+  transition-property: background-position;
+  transition-duration: 300ms;
+  padding: 0;
+}
+a:hover {
+  color: hsla(0, 0%, 25%);
+  /* color: hsla(0, 0%, 80%); */
+}
+
 .layout {
   margin: 0 auto;
   max-width: 550px;
+}
+
+nav {
+  display: flex;
+  margin-bottom: 4rem;
+}
+
+.navLinks {
+  margin-right: 10px;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  margin-block-start: 0;
 }
 
 @media only screen and (max-width: 550px) {

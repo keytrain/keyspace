@@ -5,17 +5,15 @@ import * as postsStyles from "./posts.module.css"
 
 export default function Posts({ node }) {
   return (
-    <div>
-      <Link to={node.fields.slug}>
-        <div className={postsStyles.postLink}>
-          <span className={postsStyles.postTitle}>
-            {node.frontmatter.title}
-          </span>
-          <div className={postsStyles.postDate}>
-            {node.frontmatter.date} - {node.timeToRead} minute read
-          </div>
+    <Link to={node.fields.slug}>
+      <div className={postsStyles.postLink}>
+        <span className={postsStyles.postTitle}>
+          {node.frontmatter.title}
+        </span>
+        <div className={postsStyles.postDate}>
+          {node.frontmatter.date} - {node.timeToRead} minute read
         </div>
-      </Link>
-    </div>
+      </div>
+    </Link>
   )
 }
