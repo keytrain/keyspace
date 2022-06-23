@@ -1,5 +1,6 @@
 ---
 title: "John"
+access: "private"
 detached: "true"
 ---
 
