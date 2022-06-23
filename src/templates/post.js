@@ -12,13 +12,15 @@ export default function Post({ data }) {
         <header>
           <div className={postStyles.postTitle}>{post.frontmatter.title}</div>
           <div className={postStyles.dateContainer}>
-            {post.frontmatter.updated ? (
+            {post.frontmatter.date && (
               <span className={postStyles.postDate}>
-                Updated {post.frontmatter.updated}
+                Written {post.frontmatter.date}
+                {post.frontmatter.updated && <> - </>}
               </span>
-            ) : (
+            )}
+            {post.frontmatter.updated && (
               <span className={postStyles.postDate}>
-                {post.frontmatter.date}
+                Edited {post.frontmatter.updated}
               </span>
             )}
           </div>

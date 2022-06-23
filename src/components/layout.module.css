@@ -4,13 +4,12 @@ html {
 }
 
 body {
-  padding: 3rem 1.5rem 1.5rem;
-  font-family: Garamond, Georgia, serif;
+  padding: 1rem 0.5rem;
   color: hsl(0, 0%, 20%);
+  font-family: Georgia, serif;
   font-size: 18px;
   line-height: 1.7;
 }
-
 a {
   color: hsla(0, 0%, 25%);
   text-decoration: none;
@@ -28,7 +27,6 @@ a {
 }
 a:hover {
   color: hsla(0, 0%, 25%);
-  /* color: hsla(0, 0%, 80%); */
 }
 
 .layout {
@@ -38,11 +36,12 @@ a:hover {
 
 nav {
   display: flex;
+  justify-content: flex-end;
   margin-bottom: 4rem;
 }
 
 .navLinks {
-  margin-right: 10px;
+  margin-left: 15px;
 }
 
 ul {

@@ -9,7 +9,7 @@ export default function Layout({ children, detached }) {
       {!detached && (
         <nav>
           <div className={layoutStyles.navLinks}>
-            <Link to="/">blog</Link>
+            <Link to="/">posts</Link>
           </div>
           <div className={layoutStyles.navLinks}>
             <Link to="/obsessions">obsessions</Link>

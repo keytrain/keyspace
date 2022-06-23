@@ -6,13 +6,7 @@ import Posts from "../components/posts"
 export default function Home({ data }) {
   return (
     <Layout>
-      <div>
-        {/* <h4>{data.allMarkdownRemark.totalCount} Posts</h4> */}
-        {data.allMarkdownRemark.edges.map(({ node }) => {
-          if (node.frontmatter.access === "private") return null
-          return <Posts key={node.id} node={node} />
-        })}
-      </div>
+      <Posts edges={data.allMarkdownRemark.edges} />
     </Layout>
   )
 }

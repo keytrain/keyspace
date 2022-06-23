@@ -3,7 +3,7 @@ title: "Findings after tracking habits for two months"
 date: "2021-04-05"
 ---
 
-In the past, I've tried tracking my usage of time using [toggl](https://toggl.com), and while it was quite fun to do (_and helped with intentionality_), it ended up being tedious to remember to start and stop timers whenever I did anything. Often I'd find myself starting a timer late into an activity, then having to fumble about to fix the timing. It's just too much fiddling for something that I think should be mindless.
+In the past, I've tried tracking my usage of time using [toggl](https://toggl.com), and while it was quite fun to do (_and helped with intentionality_), it ended up being tedious to remember to start and stop timers whenever I did anything. Often I'd find myself starting a timer late into an activity, and then having to fumble about to fix the timing. It's just too much fiddling for something that I think should be mindless.
 
 Some time after that, in an effort to keep myself more accountable to do more of the things I wanted to do, I used a habit tracking app. It was really simple, with a row of squares and a label, where you just tap the square if you had done that particular thing on that day. It was much easier than granular time tracking, and can be done at the end of the day. It let me see how often I did a thing, and I could see patterns, gaps, and rhythms. Problem is, this app was only limited to iOS.
 
