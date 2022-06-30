@@ -16,6 +16,8 @@ So when it came time to figure out who I could ask to be my groomsmen, you were 
 
 Paul, will you do me the honor of being one of my groomsmen?
 
+Our wedding's on May 20th, 2023 in Long Beach, CA.
+
 Don't worry, if you can't make it, I understand. Let me know! You know how to reach me.
 
 Enjoy the gifts!

@@ -22,6 +22,8 @@ The combination of these things has made you into an important person in my life
 
 So John, will you be one of my groomsmen?
 
+Our wedding's on May 20th, 2023 in Long Beach, CA.
+
 I know you've got a busy life, so if you can't make it, I'll understand. Let me know. You know how to reach me.
 
 Enjoy the gifts! We should catch up more often.

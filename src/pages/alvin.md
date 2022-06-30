@@ -16,9 +16,11 @@ You, however, never failed to leave birthday wishes, or send a text every once i
 
 You inspire me with your hard work and persistence. Thanks for being my friend all these years. Thanks for just being there, and being a stable presence. Everyone needs someone like you in their lives.
 
-However, I do have one more thing to ask of you.
+However, I do have one thing to ask of you.
 
 Alvin, will you be one of my groomsmen? Haha.
+
+Our wedding's on May 20th, 2023 in Long Beach, CA.
 
 Don't worry, if you can't make it, I understand. Let me know! You know how to reach me.
 
